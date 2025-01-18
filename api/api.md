@@ -22,8 +22,6 @@ They're like the **ordering system for your software**:
 
 ![API Workflow](/images/api/api-2.jpg)
 
-<br>
-
 ### 📍 Example: Google Maps
 
 Let’s consider the most widely used **Google Maps**.  
