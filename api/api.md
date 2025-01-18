@@ -4,6 +4,8 @@
 
 ![API Illustration](/images/api/api-1.jpg)
 
+<br>
+
 Have you ever wondered how different apps and services present in your phone seamlessly communicate with each other, allowing you to book an Uber through Google Maps or share your latest tweet on Facebook?  
 All thanks to something called an **API**, which stands for **Application Programming Interface**.  
 
@@ -19,6 +21,8 @@ They're like the **ordering system for your software**:
 <br>
 
 ![API Workflow](/images/api/api-2.jpg)
+
+<br>
 
 ### 📍 Example: Google Maps
 
