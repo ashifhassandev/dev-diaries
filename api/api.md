@@ -16,6 +16,8 @@ They're like the **ordering system for your software**:
 - You give them **instructions** (inputs).  
 - They reliably provide you with **what you asked for** (predictable outputs).  
 
+<br>
+
 ![API Workflow](/images/api/api-2.jpg)
 
 ### 📍 Example: Google Maps
