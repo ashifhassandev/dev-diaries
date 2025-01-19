@@ -81,3 +81,21 @@ To illustrate this process, let's liken APIs to the workings of a **restaurant**
 Any additional requests, such as specifying cooking preferences or adding extra toppings, are handled seamlessly.  
 
 This analogy simplifies the concept of APIs by drawing parallels with a familiar scenario – the ordering process in a restaurant.
+
+<br>
+
+![API Example](/images/api/api-3.jpg)
+
+For example, imagine a user interacting with a **restaurant API** to place an order for a pizza.  
+- The user specifies the **type of pizza**, **size**, **toppings**, and any special instructions through the API (**Input**).  
+- The API, acting as the **order handler**, communicates this information to the restaurant's system (**Server**).  
+- The Chef then prepares the pizza according to the specifications.  
+- Once ready, the pizza is delivered to the user's location (**Response**), ensuring a smooth and efficient process facilitated by the restaurant API.
+
+### 🔍 Take a Closer Look:
+The API client assembles **requests** based on user actions and sends them to the relevant **API endpoint**.  
+These **endpoints** are like URLs, providing access to specific resources in a database.
+
+#### Example:
+If a user wants to view products in an e-commerce store, the API client sends a **GET request** to the `/products` endpoint.  
+This way, APIs enable efficient **data exchange** in the digital world.
