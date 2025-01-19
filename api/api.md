@@ -141,7 +141,7 @@ Example:
 - `Math.random()` generates random numbers in JavaScript.  
 - `Math.sqrt()` returns square roots.
 
-💡 Regardless of type, APIs always deliver outputs based on inputs.
+💡 There might be different types of API, but one thing is in common, they give an output based on an input. They might be named Public, Private, or Code Interfaces but still use API as a single term to describe them.
 
 <br>
 
