@@ -84,7 +84,7 @@ This analogy simplifies the concept of APIs by drawing parallels with a familiar
 
 <br>
 
-![API Example](/images/api/api-3.jpg)
+![API Example](/images/api/api-4.jpg)
 
 For example, imagine a user interacting with a **restaurant API** to place an order for a pizza.  
 - The user specifies the **type of pizza**, **size**, **toppings**, and any special instructions through the API (**Input**).  
@@ -99,3 +99,71 @@ These **endpoints** are like URLs, providing access to specific resources in a d
 #### Example:
 If a user wants to view products in an e-commerce store, the API client sends a **GET request** to the `/products` endpoint.  
 This way, APIs enable efficient **data exchange** in the digital world.
+
+### How API Works Between Client and Server
+
+In a **client-server architecture**, APIs act as a bridge. Here's how it works:
+
+<br>
+
+![API client-server](/images/api/api-3.jpg)
+
+1. The **client** initiates an API request via a **URI** (Uniform Resource Identifier).  
+2. The API request is sent to the **server**, relaying the client’s intentions.  
+3. The **server** processes the request, gathers the required information, and sends back a **response**.  
+4. The **API** acts as the middleman, delivering the response to the client.  
+
+**APIs ensure secure communication** by using authorization credentials, API gateways, and additional techniques like HTTP headers, query string parameters, and cookies.
+
+## 🗂️ Types of APIs
+
+APIs are categorized based on their use cases and architectural styles. Here’s a breakdown:
+
+### Based on Accessibility:
+
+<br>
+
+![API Illustration](/images/api/api-1.jpg)
+
+#### 1. Private APIs:  
+Used within an organization to connect internal software components.  
+For example, an e-commerce platform may have private APIs to coordinate order processing, product catalog, and payment systems.
+
+💭 Even database calls are API calls under the hood, where queries are sent to the database, which then returns the data.
+
+#### 2. Public APIs:  
+Accessible to third-party developers, often with documentation.  
+For instance, the **YouTube Data API** enables developers to access video details, search for videos, or manage playlists, fostering third-party app development.
+
+#### 3. Code Interfaces:  
+Refers to lower-level APIs like functions provided by programming languages.  
+Example:  
+- `Math.random()` generates random numbers in JavaScript.  
+- `Math.sqrt()` returns square roots.
+
+💡 Regardless of type, APIs always deliver outputs based on inputs.
+
+<br>
+
+![API Illustration](/images/api/api-5.jpg)
+
+### Based on Architectural Style:
+
+#### REST (Representational State Transfer):  
+The most common style, using standard HTTP methods (GET, POST, PUT, DELETE).
+
+#### SOAP (Simple Object Access Protocol):  
+Uses XML for structured communication, often in enterprise environments.  
+
+## 💬 How Developers Talk About APIs
+
+- **"I've developed an API that delivers personalized book recommendations."**  
+APIs simplify tasks, like a personal shopper for books.
+
+- **"I'm debugging an API throwing an authentication error."**  
+The locked door analogy—only the correct credentials unlock access.
+
+- **"You can use the Facebook API to integrate social sharing."**  
+APIs create magic portals for seamless app integration.
+
+By now, you must have a clear idea of APIs—how they work, their types, and real-world use cases. To truly understand them, dive into hands-on projects and practical API implementation!
